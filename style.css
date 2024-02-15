@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap')
+; 
+*{ 
+    transition: all;
+}
+.menu li{ 
+    list-style: none; 
+    margin-left: 3rem; 
+} 
+.menu a{ 
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    border: 1px solid; 
+    border-radius: 20px; 
+    background-color: white; 
+http://127.0.0.1:5500/index.html    border-color: white; 
+    padding: 10px; 
+    font-color:black;
+}
+.container{ 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.menu{ 
+    display: flex;  
+    margin-right: 2rem; 
+    margin-top: 30px;
+}
+nav{ 
+    font-family: 'Kanit'; 
+    border: 1px solid; 
+    border-radius: 20px; 
+    padding: 10px; 
+    background-color: aliceblue;
+} 
+.intro{ 
+    margin-top:10rem; 
+    font-family: 'Kanit';
+} 
+.content{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+.content a {
+    text-decoration: none; 
+} 
+.joy{ 
+    background-color: rgb(57, 45, 45);
+    color:aliceblue; 
+    font-family: kanit; 
+    margin-top: 10rem; 
+    border: 1px solid;
+    border-radius: 50px;
+}  
+.ph{ 
+    display: flex; 
+    justify-content: space-between;
+    margin-top:3rem ;
+} 
+.advice{ 
+    font-family: 'kanit'; 
+}
